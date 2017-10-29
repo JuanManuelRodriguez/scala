@@ -1,0 +1,4 @@
+run Date
+run Date.scala
+exit
+run Votes

@@ -1,0 +1,16 @@
+Provincia;Distrito;Mesa;Partido;Lista;Votos
+Buenos Aires;CABA;123;Celeste;111;200
+Buenos Aires;CABA;123;Amarilla;222;150
+Buenos Aires;CABA;125;Celeste;111;120
+Buenos Aires;CABA;125;Amarilla;222;230
+Buenos Aires;CABA;128;Verde;333;500
+Buenos Aires;Banfield;2;Celeste;111;50
+Buenos Aires;Tandil;54;Celeste;111;345
+Buenos Aires;Tandil;54;Gris;444;342
+Buenos Aires;Tandil;55;Celeste;111;15
+Buenos Aires;Tandil;55;Gris;444;555
+Cordoba;Cordoba;2;Celeste;111;222
+Cordoba;Cordoba;3;Gris;444;4342
+Cordoba;Rio cuarto;1;Celeste;111;111
+Cordoba;Rio cuarto;1;Verde;333;123
+Cordoba;Rio Tercero;1;Amarilla;222;124
