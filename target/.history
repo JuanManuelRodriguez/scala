@@ -2,3 +2,9 @@ run Date
 run Date.scala
 exit
 run Votes
+run
+1
+run
+clear
+run
+exit
