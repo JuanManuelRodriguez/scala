@@ -14,16 +14,19 @@ object Test{
       winner
     }
 
-
-    var x = new HashMap[String,String](){}
-    //val fileAux2 = file.getLines().toList.foreach(y => x += (y.split(";")(0) -> y.split(";")(5)))
-    val fileAux2 = file.getLines().toList
-    fileAux2.foreach(y => x += (y.split(";")(0) -> fileAux2.reduceLeft(_ + _.split(";")(5))))
-
+    val fileAux = file.getLines().toList
+                                        .map(line => {
+                                          val v = line.split(";")
+                                          (v(0), v(1), v(2), v(3), v(4), v(5))
+                                        })
     file.close()
 
+    println("///////////////////////////////////////////////////////////////////////////////////////////////////////")
+    println("///////////////////////////////////////////////////////////////////////////////////////////////////////")
 
-    x.foreach(println)
-    println(x("Buenos Aires"))
+    fileAux.filter(y =>{
+                          val (provincia, distrito, mesa, partido, lista, votos) = y
+                          provincia.equals("Buenos Aires")})
+    .foreach(println)
   }
 }
